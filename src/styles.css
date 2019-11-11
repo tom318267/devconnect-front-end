@@ -1,0 +1,57 @@
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.navbar {
+  background-color: #6B98E8;
+  box-shadow: 1px 1px 5px #9994bd;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.Landing {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.overlay {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+}
+
+.landing-header {
+  display: flex;
+  height: 95%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+.landing-header h1 {
+  font-size: 5rem;
+}
+
+.login {
+  margin-right: 5px;
+}
+
+.btn-primary {
+  background-color: #6B98E8;
+  border-color: #6B98E8;
+}
+
+.Register form, .Login form {
+  width: 75%;
+  margin: 0 auto;
+}
